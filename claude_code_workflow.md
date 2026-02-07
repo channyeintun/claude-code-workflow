@@ -27,10 +27,11 @@ When **Claude Code** (`claude`) is editing your files, you want a real-time TUI 
    - Use `Cmd + D` (Vertical Split) to have two side-by-side panes.
 2. **Launch tools**:
    - In the **Left Pane**, run: `lazygit`
-   - In the **Right Pane**, run: `claude`
+   - In the **Right Pane**, run: `claude` (or `ollama launch claude` for a free local agent)
 
 ### Workflow
 - As you give instructions to Claude (e.g., *"Refactor the auth service"*), Claude will start writing files.
+- **Local Option**: If you use [Ollama](local_ai_guide.md), you can run this workflow entirely for free on your own machine.
 - **Lazygit** will automatically detect these changes.
 - Click or navigate to the **Files** panel in Lazygit to see the diffs in real-time.
 - If Lazygit doesn't refresh instantly, hit `R` to force a refresh.
