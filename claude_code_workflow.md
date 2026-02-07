@@ -2,7 +2,7 @@
 
 This guide explains how to set up the professional developer environment seen in your image, combining the power of **Claude Code** for AI-driven development with **Lazygit** and **Git Worktrees** for monitoring and parallelization.
 
-![User Workflow Reference](file:///Users/channyeintun/.gemini/antigravity/brain/bfe0e754-24ba-4f22-a0a7-e59eb4cda569/uploaded_media_1770432828505.png)
+![User Workflow Reference](assets/workflow_reference.png)
 
 ---
 
