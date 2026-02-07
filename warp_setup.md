@@ -14,11 +14,9 @@ To get the same "cool" glassmorphism look in Warp:
 2. Find the **Window Opacity** slider. Move it to about **85%**.
 3. Once opacity is below 100%, the **Blur radius** slider will activate. Set it to around **20**.
 
-## 3. Troubleshooting (If it's not transparent)
-- **Exit Full Screen**: Warp has a known bug where transparency doesn't work in native macOS full-screen mode. Try taking it out of full screen.
-- **Restart Warp**: Always restart Warp after adding a new theme file or changing opacity for the first time.
 - **MacOS Theme**: Ensure your macOS is set to "Dark" or "Auto" in System Settings, as this can sometimes affect how translucent windows render.
-- **Graphics Backend**: If the slider does nothing, try changing the graphics backend in `Settings > Features > System` to `Vulkan` or `OpenGL` and restart.
+- **Check for Updates**: Go to `Settings > Accounts` and click **Check for Update**. Older versions of Warp had more bugs with transparency.
+- **Opacity Slider Location**: Ensure you are looking at `Settings > Appearance > Themes` (or Window). If the slider is at 100, it's fully opaque. Move it to 85.
 
 ## 4. Font Setup
 1. In `Settings > Appearance`, find the **Text** section.
