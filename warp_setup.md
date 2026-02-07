@@ -11,7 +11,7 @@ To get the same "cool" glassmorphism look in Warp:
 > [!IMPORTANT]
 > Transparency in Warp is controlled by a slider in the UI, not by the theme file itself.
 1. In `Settings > Appearance`, scroll down to the **Themes** section.
-2. Find the **Window Opacity** slider. Move it to about **85%**.
+2. Find the **Window Opacity** slider. Move it to about **70%**.
 3. Once opacity is below 100%, the **Blur radius** slider will activate. Set it to around **20**.
 
 - **MacOS Theme**: Ensure your macOS is set to "Dark" or "Auto" in System Settings, as this can sometimes affect how translucent windows render.

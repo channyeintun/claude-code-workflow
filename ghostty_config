@@ -3,7 +3,7 @@
 
 # --- Aesthetics & Glassmorphism ---
 # Make the background translucent and add a beautiful blur effect (macOS).
-background-opacity = 0.85
+background-opacity = 0.70
 background-blur-radius = 20
 
 # macOS titlebar options: 'hidden', 'native', 'transparent'.
