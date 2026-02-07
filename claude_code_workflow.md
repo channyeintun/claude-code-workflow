@@ -6,9 +6,14 @@ This guide explains how to set up the professional developer environment seen in
 
 ---
 
-## 1. Ghostty Setup
+## 1. Terminal Setup
 
-To achieve the "glassmorphism" look with transparency and blur, use the standalone [ghostty_config](ghostty_config) provided in this repository.
+### Ghostty
+Use the standalone [ghostty_config](ghostty_config) provided in this repository.
+
+### Warp
+Use the standalone [CatppuccinMocha.yaml](CatppuccinMocha.yaml) provided in this repository. 
+**Note:** You must manually select the theme and adjust opacity/blur in Warp settings (see [warp_setup.md](warp_setup.md) for details).
 
 ---
 
