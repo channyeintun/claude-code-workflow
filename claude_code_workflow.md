@@ -6,6 +6,42 @@ This guide explains how to set up the professional developer environment seen in
 
 ---
 
+## 1. Ghostty Setup
+
+To achieve the "glassmorphism" look with transparency and blur, use the following configuration for Ghostty.
+
+### Configuration (`~/Library/Application Support/com.mitchellh.ghostty/config`)
+
+```bash
+# --- Aesthetics & Glassmorphism ---
+background-opacity = 0.85
+background-blur-radius = 20
+macos-titlebar-style = transparent
+window-padding-x = 12
+window-padding-y = 12
+
+# --- Theme & Colors ---
+theme = Catppuccin Mocha
+
+# --- Typography ---
+font-family = "JetBrainsMono Nerd Font"
+font-size = 13
+
+# --- Cursor & UX ---
+cursor-style = block
+cursor-style-blink = true
+copy-on-select = true
+
+# --- Window Management ---
+macos-option-as-alt = true
+confirm-close-surface = false
+
+# --- Key Bindings ---
+keybind = cmd+shift+r=reload_config
+```
+
+---
+
 ## 2. Monitoring Claude Code with Lazygit
 
 When **Claude Code** (`claude`) is editing your files, you want a real-time TUI (Terminal User Interface) to see exactly what's happening.
