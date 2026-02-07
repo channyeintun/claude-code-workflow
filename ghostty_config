@@ -1,0 +1,43 @@
+# Ghostty Configuration
+# Performance-focused, aesthetic-driven terminal setup.
+
+# --- Aesthetics & Glassmorphism ---
+# Make the background translucent and add a beautiful blur effect (macOS).
+background-opacity = 0.85
+background-blur-radius = 20
+
+# macOS titlebar options: 'hidden', 'native', 'transparent'.
+# 'transparent' makes it look more integrated.
+macos-titlebar-style = transparent
+
+# Padding for a modern, breathable look.
+window-padding-x = 12
+window-padding-y = 12
+
+# --- Theme & Colors ---
+# Catppuccin Mocha is a popular, high-contrast, yet soft palette.
+theme = Catppuccin Mocha
+
+# --- Typography ---
+# JetBrains Mono is standard, but you can change this to any Nerd Font you have.
+font-family = "JetBrainsMono Nerd Font"
+font-size = 13
+font-feature = -calt
+font-feature = -liga
+
+# --- Cursor & UX ---
+# A block cursor with a subtle blink is very classic yet modern.
+cursor-style = block
+cursor-style-blink = true
+
+# Copy on selection (handy for productivity)
+copy-on-select = true
+
+# --- Window Management ---
+# Open new instances in a new tab if preferred, or new window.
+macos-option-as-alt = true
+confirm-close-surface = false
+
+# --- Key Bindings ---
+# Quick reload for testing configurations
+keybind = cmd+shift+r=reload_config
